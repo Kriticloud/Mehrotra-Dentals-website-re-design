@@ -99,6 +99,8 @@ export default function Navbar() {
               ))}
               <a
                 href="https://wa.me/919935959333"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 text-xl font-medium text-brand-secondary mt-4"
               >
                 <Phone className="w-6 h-6" />

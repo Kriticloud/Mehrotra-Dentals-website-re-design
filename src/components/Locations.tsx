@@ -114,7 +114,7 @@ export default function Locations() {
               <div className="text-xs text-brand-primary/40 uppercase font-bold tracking-widest leading-none mb-1">Central Helpline</div>
               <div className="text-lg font-bold text-brand-primary">+91 9935959333 / 9451396943</div>
            </div>
-           <a href="https://wa.me/919935959333" className="btn-primary">
+           <a href="https://wa.me/919935959333" target="_blank" rel="noopener noreferrer" className="btn-primary">
               WhatsApp Support
            </a>
         </div>

@@ -29,7 +29,12 @@ export default function AppointmentForm() {
             </p>
 
             <div className="space-y-8">
-              <div className="flex items-center gap-6">
+              <a 
+                href="https://wa.me/919935959333" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-6 hover:bg-white/5 p-2 rounded-2xl transition-colors"
+              >
                  <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
                     <MessageCircle className="w-6 h-6 text-brand-secondary" />
                  </div>
@@ -37,7 +42,7 @@ export default function AppointmentForm() {
                     <div className="text-xs text-white/40 uppercase font-bold tracking-widest leading-none mb-1">WhatsApp Support</div>
                     <div className="text-xl font-display font-bold">+91 99359 59333</div>
                  </div>
-              </div>
+              </a>
               
               <div className="pt-10 border-t border-white/10">
                  <div className="flex -space-x-4 mb-6">
